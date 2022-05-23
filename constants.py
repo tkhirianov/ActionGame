@@ -1,2 +1,5 @@
 WIDTH, HEIGHT = 620, 480
 FPS = 30
+
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)

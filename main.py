@@ -16,6 +16,11 @@ def mainloop():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 game_over = True
+        # move all actors on the screen
+        for actor in list_of_actors:
+            actor.move(dt)
+
+        screen.fill(BLACK)
         # show all actors on the screen
         for actor in list_of_actors:
             actor.show(screen)

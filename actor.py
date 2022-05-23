@@ -11,7 +11,7 @@ class Actor(abc.ABC):
         self.health = health
 
     @abc.abstractmethod
-    def move(self):
+    def move(self, dt: float):
         pass
 
     @abc.abstractmethod

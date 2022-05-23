@@ -16,7 +16,7 @@ class Worm(actor.Actor):
         y = constants.HEIGHT - Worm._height / 2
         super().__init__(x, y, Worm._default_radius, Worm._default_health)
 
-    def move(self):
+    def move(self, dt: float):
         self.x += 1
 
     def show(self, screen):
