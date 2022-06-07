@@ -8,8 +8,8 @@ class Worm(actor.Actor):
     _default_radius = 20
     _default_health = 10
     _color = (160, 160, 0)
-    _width = 24
-    _height = 8
+    _width = 25
+    _height = 9
     _rect_radius = 3
 
     def __init__(self, x: float):
