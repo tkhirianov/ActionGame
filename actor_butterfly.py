@@ -7,7 +7,7 @@ import actor
 class Butterfly(actor.Actor):
     _default_radius = 20
     _default_health = 25
-    _color = (210, 60, 50)
+    _color = (210, 20, 40)
     _width = 60
     _height = 40
     _rect_radius = 15
