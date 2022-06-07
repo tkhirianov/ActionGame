@@ -8,8 +8,8 @@ class Butterfly(actor.Actor):
     _default_radius = 20
     _default_health = 25
     _color = (210, 60, 50)
-    _width = 30
-    _height = 30
+    _width = 60
+    _height = 40
     _rect_radius = 15
 
     def __init__(self, x: float, y: float):
