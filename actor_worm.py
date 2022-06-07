@@ -6,8 +6,8 @@ import actor
 
 class Worm(actor.Actor):
     _default_radius = 20
-    _default_health = 50
-    _color = (150, 160, 0)
+    _default_health = 60
+    _color = (150, 160, 2)
     _width = 25
     _height = 10
     _rect_radius = 3
